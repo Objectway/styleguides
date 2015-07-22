@@ -2,9 +2,9 @@
 
 > Rules are the children of principles.
 
-## CSS Preprocessor: SASS
+## CSS Preprocessor: SCSS
 
-Keypoint: very strict syntax that help standardization
+Keypoint: linters and adoption
 
 ### Variables
 
@@ -20,10 +20,11 @@ Keypoint: very strict syntax that help standardization
 - font size in `rem`
 
 ```
-.SearchBox
-    padding: 20px
-    font-size: 2rem
+.SearchBox {
+    padding: 20px;
+    font-size: 2rem;
     ...
+}
 ```
 
 ### Element
@@ -34,12 +35,14 @@ Keypoint: very strict syntax that help standardization
 - font-size in `em` so the Block can scale easily and consistently
 
 ```
-.SearchBox__inputField
+.SearchBox__inputField {
     ...
+}
 
-.SearchBox__mainButton
-    font-size: 2em
+.SearchBox__mainButton {
+    font-size: 2em;
     ...
+}
 ```
 
 ### Modifier
@@ -51,12 +54,14 @@ Keypoint: very strict syntax that help standardization
 
 ```
 /* Block modifier */
-.SearchBox--compact
-    padding: 0
+.SearchBox--compact {
+    padding: 0;
+}
 
 /* Element modifier */
-.SearchBox__mainButton--small
-    font-size: 1.4em
+.SearchBox__mainButton--small {
+    font-size: 1.4em;
+}
 ```
 
 ### State classes
@@ -68,8 +73,9 @@ Keypoint: very strict syntax that help standardization
 - font-size in `em`
 
 ```
-.SearchBox__mainButton.is-focused
-    transform: scale(1.2)
+.SearchBox__mainButton.is-focused {
+    transform: scale(1.2);
+}
 ```
 
 ### Utility classes
@@ -80,11 +86,13 @@ Keypoint: very strict syntax that help standardization
 - can use `!important` [Use only proactively, not reactively!]
 
 ```
-.u-alignRight
-    text-align: right !important
+.u-alignRight {
+    text-align: right !important;
+}
 
-.u-hidden
-    display: none !important
+.u-hidden {
+    display: none !important;
+}
 ```
 
 ### JS hooks
@@ -172,32 +180,37 @@ Using preprocessors we need to explicit all the dependencies (mixins, variables)
 
 ## Examples
 
-### SASS
+### SCSS
 
 Indentation not for nesting selectors but to concatenate names
 
 ```
-.SearchBox
-    padding: 20px
-    font-size: 2rem
+.SearchBox {
+    padding: 20px;
+    font-size: 2rem;
     ...
 
-    &--compact
-        padding: 0
+    &--compact {
+        padding: 0;
+    }
 
-    &__inputField
+    &__inputField {
+        ...
+    }
+
+    &__mainButton {
+        font-size: 2em;
         ...
 
-    &__mainButton
-        font-size: 2em
-        ...
+        &--small {
+            font-size: 1.4em;
+        }
 
-        &--small
-            font-size: 1.4em
-
-        &.is-focused
-            transform: scale(1.2)
-
+        &.is-focused {
+            transform: scale(1.2);
+        }
+    }
+}
 ```
 
 ### Jade
