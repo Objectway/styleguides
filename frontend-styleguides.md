@@ -8,7 +8,7 @@ Keypoint: linters and adoption
 
 ### Variables
 
-- name in `camelCase`
+- name in `hyphenated-lowercase`
 
 ## Naming convention for classes: [BEM](https://en.bem.info/)!
 
@@ -258,8 +258,8 @@ Indentation not for nesting selectors but to concatenate names
     DEPENDENCIES
 
     Variables:
-    - $colorPrimary
-    - $colorSecondary
+    - $color-primary
+    - $color-secondary
 
     Mixins:
     - clearfix()
