@@ -1,5 +1,15 @@
+# Default application configuration that all configurations inherit from.
+
 scss_files: "**/*.scss"
 plugin_directories: ['.scss-linters']
+
+# List of gem names to load custom linters from (make sure they are already
+# installed
+
+# default: https://github.com/brigade/scss-lint/blob/master/config/default.yml
+# options:
+# http://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
+
 plugin_gems: []
 
 linters:
@@ -144,7 +154,7 @@ linters:
 
   SelectorFormat:
     enabled: true
-    ignored_types: [element, attribute]
+    ignored_types: element
     convention: ^((u|is|has|js)\-[a-zA-Z0-9]*|([A-Z][a-zA-Z0-9]*(__[a-z0-9][a-zA-Z0-9]*)?(--[a-z0-9][a-zA-Z0-9]*)?))$ # Pascal Case
 
   Shorthand:
