@@ -18,7 +18,7 @@ Simple guidelines and text-editor/ide configuration files shared across projects
 ### Linters configuration files
 - [EditorConfig](.editorconfig)
 - [Puglint](.pug-lintrc)
-- [Stylelint](.styleintrc)
+- [Stylelint](.stylelintrc)
 - [Scsslint](.scss-lint.yml) *(bugged on Visual Studio Code)*
 - [Sasslint](.sass-lint.yml) *(deprecated)*
 
