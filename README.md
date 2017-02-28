@@ -1,7 +1,7 @@
 # Styleguides
 Simple guidelines and text-editor/ide configuration files shared across projects
 
-### OW Styleguide
+### OW Main Styleguides
 - [FD Dev Living Styleguides](frontend-styleguides.md)
 - [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss)
 
