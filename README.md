@@ -24,3 +24,6 @@ Simple guidelines and text-editor/ide configuration files shared across projects
 
 ### StyleLint in depth installation guide
 - [Stylelint installation step by step](stylelint-installation.md)
+
+### Atomic Design documentation
+- [Atomic Design Methodology](http://atomicdesign.bradfrost.com/chapter-2/)
