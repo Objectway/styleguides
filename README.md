@@ -19,8 +19,8 @@ Simple guidelines and text-editor/ide configuration files shared across projects
 - [EditorConfig](.editorconfig)
 - [Puglint](.pug-lintrc)
 - [Stylelint](.stylelintrc)
-- [Scsslint](.scss-lint.yml) *(bugged on Visual Studio Code)*
-- [Sasslint](.sass-lint.yml) *(deprecated)*
+- [Sasslint](.sass-lint.yml) *(bugged on Visual Studio Code)*
+- [Scsslint](.scss-lint.yml) *(deprecated)*
 
 ### StyleLint in depth installation guide
 - [Stylelint installation step by step](stylelint-installation.md)
