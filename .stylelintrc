@@ -31,7 +31,6 @@
     "declaration-property-unit-whitelist": {},
     "declaration-property-value-blacklist": {},
     "declaration-property-value-whitelist": {},
-    "font-family-name-quotes": "always-where-required",
     "font-family-no-duplicate-names": true,
     "font-weight-notation": "numeric",
     "function-calc-no-unspaced-operator": true,
@@ -68,11 +67,11 @@
     "no-unknown-animations": true,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
-    "order/declaration-block-properties-alphabetical-order": true,
+    "order/properties-alphabetical-order": true,
     "property-case": "lower",
     "property-no-unknown": true,
     "property-no-vendor-prefix": true,
-    "rule-nested-empty-line-before": ["always", {
+    "rule-empty-line-before": ["always", {
       "except": ["first-nested"],
       "ignore": ["after-comment"]
     }],
@@ -90,7 +89,7 @@
     "selector-list-comma-space-before": "never",
     "selector-max-empty-lines": 0,
     "selector-max-compound-selectors": 3,
-    "selector-max-specificity": "0,2,0",
+    "selector-max-specificity": "0,4,0",
     "selector-no-attribute": true,
     "selector-no-id": true,
     "selector-no-qualifying-type": true,
