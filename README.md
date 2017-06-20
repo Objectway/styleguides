@@ -8,6 +8,9 @@ Simple guidelines and text-editor/ide configuration files shared across projects
 ### In depth documentation for BEM
 - [BEM](https://en.bem.info/methodology/quick-start/)
 
+### Git global **gitignore** configuration
+- [.global_gitignore](https://raw.githubusercontent.com/Objectway/styleguides/master/.gitignore_global)
+
 ### Mandatory linters:
 - [EditorConfig](http://editorconfig.org)
 - [Puglint](https://github.com/pugjs/pug-lint)
