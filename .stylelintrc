@@ -1,6 +1,7 @@
 {
   "plugins": [
-    "stylelint-order"
+    "stylelint-order",
+    "stylelint-scss"
   ],
   "rules": {
     "block-closing-brace-empty-line-before": "never",
@@ -31,7 +32,7 @@
     "declaration-property-unit-whitelist": {},
     "declaration-property-value-blacklist": {},
     "declaration-property-value-whitelist": {},
-    "font-family-name-quotes": "always-where-required",		
+    "font-family-name-quotes": "always-where-required",
     "font-family-no-duplicate-names": true,
     "font-weight-notation": "numeric",
     "function-calc-no-unspaced-operator": true,
@@ -91,11 +92,7 @@
     "selector-max-empty-lines": 0,
     "selector-max-compound-selectors": 3,
     "selector-max-specificity": "0,2,0",
-    "selector-no-attribute": true,
-    "selector-no-id": true,
     "selector-no-qualifying-type": true,
-    "selector-no-type": true,
-    "selector-no-universal": true,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-case": "lower",
     "selector-pseudo-class-no-unknown": true,
