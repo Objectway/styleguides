@@ -91,7 +91,7 @@
     "selector-list-comma-space-before": "never",
     "selector-max-empty-lines": 0,
     "selector-max-compound-selectors": 3,
-    "selector-max-specificity": "0,2,0",
+    "selector-max-specificity": "0,5,0",
     "selector-no-qualifying-type": true,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-case": "lower",
