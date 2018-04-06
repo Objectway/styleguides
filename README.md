@@ -56,6 +56,6 @@ In your project root folder
 
 ### Visual Studio Code
 
-`$ npm install -g styleint-order`
+`$ npm install -g stylelint-order`
 
-`$ npm install styleint-order stylelint-scss`
+`$ npm install stylelint-order stylelint-scss`
