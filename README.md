@@ -49,7 +49,7 @@ Depending on your editor you can install **Stylelint** locally on your project o
 
 In your project root folder
 
-`$ npm install stylelint styleint-order stylelint-scss` than configure the **Stylelint package** configuration with the local installation:
+`$ npm install stylelint stylelint-order stylelint-scss` than configure the **Stylelint package** configuration with the local installation:
 
 ![Webstorm configuration](./media/webstorm.png)
 
